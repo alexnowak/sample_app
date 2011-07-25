@@ -1,4 +1,6 @@
 SampleApp::Application.routes.draw do
+  get "pages/help"
+
   resources :microposts
 
   resources :users
