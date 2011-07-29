@@ -1,45 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a821f63a-1e8e-426e-a060-01e174cf0397" name="Default" comment="Rails Flavored Ruby START">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/blueprint/plugins/buttons/icons/cross.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/blueprint/plugins/buttons/icons/key.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/blueprint/plugins/buttons/icons/tick.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/blueprint/plugins/link-icons/icons/doc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/blueprint/plugins/link-icons/icons/email.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/blueprint/plugins/link-icons/icons/external.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/blueprint/plugins/link-icons/icons/feed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/blueprint/plugins/link-icons/icons/im.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/blueprint/plugins/link-icons/icons/lock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/blueprint/plugins/link-icons/icons/pdf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/blueprint/plugins/link-icons/icons/visited.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/blueprint/plugins/link-icons/icons/xls.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/blueprint/src/grid.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/projectCodeStyle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/help.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/blueprint/ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/blueprint/plugins/buttons/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/blueprint/plugins/buttons/screen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/blueprint/plugins/fancy-type/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/blueprint/plugins/fancy-type/screen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/blueprint/plugins/link-icons/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/blueprint/plugins/link-icons/screen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/blueprint/plugins/rtl/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/blueprint/plugins/rtl/screen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/blueprint/print.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/blueprint/screen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/blueprint/src/forms.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/blueprint/src/grid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/blueprint/src/ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/blueprint/src/print.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/blueprint/src/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/blueprint/src/typography.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/helpers/pages_helper_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/views/pages/help.html.erb_spec.rb" />
+    <list default="true" id="a821f63a-1e8e-426e-a060-01e174cf0397" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/custom.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sample_app.iml" afterPath="$PROJECT_DIR$/.idea/sample_app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/contact.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/contact.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/home.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/home.html.erb" />
     </list>
     <ignored path="sample_app.iws" />
@@ -93,7 +59,7 @@
       <file leaf-file-name="home.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="5" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
+            <state line="6" column="58" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -117,10 +83,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="contact.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pages/contact.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="148" selection-end="148" vertical-scroll-proportion="0.17598344">
+            <state line="5" column="0" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -129,7 +95,16 @@
       <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="3" selection-start="140" selection-end="140" vertical-scroll-proportion="-3.9230769">
+            <state line="31" column="0" selection-start="769" selection-end="769" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="21" selection-start="135" selection-end="135" vertical-scroll-proportion="0.23943663">
               <folding />
             </state>
           </provider>
@@ -189,7 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/public/hello.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -202,9 +176,10 @@
         <option value="$PROJECT_DIR$/spec/controllers/pages_controller_spec.rb" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/app/views/pages/help.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/pages/contact.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/home.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/pages/contact.html.erb" />
+        <option value="$PROJECT_DIR$/public/stylesheets/custom.css" />
       </list>
     </option>
   </component>
@@ -269,9 +244,54 @@
               <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Public" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.PublicFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Public" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.PublicFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.FolderSubFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Layouts" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.LayoutsFolder" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -519,6 +539,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -794,13 +815,13 @@
       <method />
     </configuration>
     <list size="7">
-      <item index="0" class="java.lang.String" itemvalue="Rake.test" />
-      <item index="1" class="java.lang.String" itemvalue="Rake.spec" />
-      <item index="2" class="java.lang.String" itemvalue="Rails.Production: sample_app" />
-      <item index="3" class="java.lang.String" itemvalue="Rails.Development: sample_app" />
-      <item index="4" class="java.lang.String" itemvalue="Rake.db:migrate" />
-      <item index="5" class="java.lang.String" itemvalue="RSpec.pages_controller_spec" />
-      <item index="6" class="java.lang.String" itemvalue="RSpec.users_controller_spec" />
+      <item index="0" class="java.lang.String" itemvalue="Rake.db:migrate" />
+      <item index="1" class="java.lang.String" itemvalue="RSpec.pages_controller_spec" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.users_controller_spec" />
+      <item index="3" class="java.lang.String" itemvalue="Rake.test" />
+      <item index="4" class="java.lang.String" itemvalue="Rake.spec" />
+      <item index="5" class="java.lang.String" itemvalue="Rails.Production: sample_app" />
+      <item index="6" class="java.lang.String" itemvalue="Rails.Development: sample_app" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -859,10 +880,10 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292978" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33487147" sideWeight="0.67070216" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3454186" sideWeight="0.63801455" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39951575" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20338982" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292978" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36084905" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292978" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -899,7 +920,7 @@
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rails Flavored Ruby START" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rails Flavored Ruby STOP" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -916,6 +937,7 @@
     <MESSAGE value="Adding Pages" />
     <MESSAGE value="Done with Static Pages" />
     <MESSAGE value="Rails Flavored Ruby START" />
+    <MESSAGE value="Rails Flavored Ruby STOP" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -958,7 +980,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="5" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0" />
+        <state line="6" column="58" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/.gitkeep">
@@ -971,18 +993,19 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="3" selection-start="140" selection-end="140" vertical-scroll-proportion="-3.9230769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/contact.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="148" selection-end="148" vertical-scroll-proportion="0.17598344">
-          <folding />
-        </state>
+        <state line="5" column="0" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="769" selection-end="769" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="21" selection-start="135" selection-end="135" vertical-scroll-proportion="0.23943663" />
       </provider>
     </entry>
   </component>

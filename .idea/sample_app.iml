@@ -58,18 +58,18 @@
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v3.0.3, Ruby SDK 1.9.2-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sqlite3 (v1.3.3, Ruby SDK 1.9.2-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.0.15, Ruby SDK 1.9.2-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.1.2, Ruby SDK 1.9.2-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-mount (v0.6.14, Ruby SDK 1.9.2-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="railties (v3.0.3, Ruby SDK 1.9.2-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.1.2, Ruby SDK 1.9.2-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rspec-expectations (v2.6.0, Ruby SDK 1.9.2-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="railties (v3.0.3, Ruby SDK 1.9.2-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v0.3.29, Ruby SDK 1.9.2-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails (v3.0.3, Ruby SDK 1.9.2-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-test (v0.5.7, Ruby SDK 1.9.2-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="erubis (v2.6.6, Ruby SDK 1.9.2-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.5.0, Ruby SDK 1.9.2-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="activerecord (v3.0.3, Ruby SDK 1.9.2-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="polyglot (v0.3.1, Ruby SDK 1.9.2-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="treetop (v1.4.9, Ruby SDK 1.9.2-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.5.0, Ruby SDK 1.9.2-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="activerecord (v3.0.3, Ruby SDK 1.9.2-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="erubis (v2.6.6, Ruby SDK 1.9.2-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionmailer (v3.0.3, Ruby SDK 1.9.2-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thor (v0.14.6, Ruby SDK 1.9.2-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activemodel (v3.0.3, Ruby SDK 1.9.2-p0) [gem]" level="application" />
