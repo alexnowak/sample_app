@@ -5,7 +5,7 @@ class MicropostsController < ApplicationController
     @microposts = Micropost.all
 
     respond_to do |format|
-      format.html # index.html.erb
+      format.html # DELETED_index.html.erb
       format.xml  { render :xml => @microposts }
     end
   end
