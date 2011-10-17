@@ -23,7 +23,7 @@ class User < ActiveRecord::Base
   def has_password?(submitted_password)
     # Compare encrypted_password with the encrypted version of
     # submitted_password.
-	encrypted_password == encrypt(submitted_password)
+	  encrypted_password == encrypt(submitted_password)
   end
 
   # @param email [String]
