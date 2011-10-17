@@ -20,6 +20,22 @@ describe UsersController do
   end
 
   describe "GET show" do
+
+#    before(:each) do
+#      @user = Factory(:user)
+#    end
+
+#    it "should be successful" do
+#      user = Factory(:user)
+#      get :show, :id => user
+#      response.should be_success
+#    end
+
+#    it "should find the right user" do
+#      get :show, :id => @user
+#      assigns(:user).should == @user
+#    end
+
     it "assigns the requested user as @user" do
       User.stub(:find).with("37") { mock_user }
       get :show, :id => "37"
@@ -33,6 +49,7 @@ describe UsersController do
       get :new
       assigns(:user).should be(mock_user)
     end
+    
   end
 
   describe "GET edit" do
