@@ -64,7 +64,7 @@ describe UsersController do
 
     describe "failure" do
       before(:each) do
-        @attr = { :name => "", :email => "", :password => "",
+        @attr = { :username => "", :email => "", :password => "",
           :password_confirmation => "" }
       end
 

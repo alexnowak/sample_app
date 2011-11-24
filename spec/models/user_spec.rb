@@ -3,33 +3,35 @@ require 'spec_helper'
 describe User do
   before(:each) do
     @attr = {
-        :name => "Example User",
+        :username => "ExampleUser",
+        :firstname => "Example",
+        :lastname => "User",
         :email => "user@example.com",
         :password => "foobar",
         :password_confirmation => "foobar"
     }
   end
 
-  it "should require a name" do
-    no_name_user = User.new(@attr.merge(:name => ""))
-    no_name_user.should_not be_valid
+  it "should require a username" do
+    no_username_user = User.new(@attr.merge(:username => ""))
+    no_username_user.should_not be_valid
   end
 
-  it "should accept valid names" do
-    names = ["Alex Nowak", "ALEX NOWAK", "Alex$Nowak", "!\@\#\#\@#\%\@\#", "asd", "a" * 50]
-    names.each do |name|
-      # puts "Testing VALID User name: "+name
-      valid_name = User.new(@attr.merge(:name => name))
-      valid_name.should be_valid
+  it "should accept valid usernames" do
+    usernames = ["AlexNowak", "ALEXNOWAK", "Alex_Nowak", "asd", "a" * 50]
+    usernames.each do |username|
+      puts "Testing VALID User username: "+username
+      valid_username = User.new(@attr.merge(:username => username))
+      valid_username.should be_valid
     end
   end
 
-  it "should reject invalid names" do
-    names = ["", "ab", "a"*51]
-    names.each do |name|
-      # puts "Testing INVALID User name: "+name
-      invalid_name = User.new(@attr.merge(:name => name))
-      invalid_name.should_not be_valid
+  it "should reject invalid usernames" do
+    usernames = ["Alex Nowak", "Alex$Nowak", "!\@\#\#\@#\%\@\#", "AlexNowak ", "ab", "a"*51]
+    usernames.each do |username|
+      # puts "Testing INVALID User name: "+username
+      invalid_username = User.new(@attr.merge(:username => username))
+      invalid_username.should_not be_valid
     end
   end
 

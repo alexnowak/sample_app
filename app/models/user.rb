@@ -2,12 +2,26 @@ require 'digest'
 
 class User < ActiveRecord::Base
   attr_accessor :password
-  attr_accessible :name, :email, :password, :password_confirmation
+  attr_accessible :username, :firstname, :lastname, :email, :password, :password_confirmation
 
-  email_regex = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
-  validates :name, :presence => true,
+  # Allow only letters, numbers, underscore for usernames
+  # Perl example: my $valid = $test =~ /^\w+$/;
+  #!~ test for *non* matching chars. You should also add ^ and $ bounds otherwise &&&a would still match
+  # as it contains a word character. If you need to include white space in your
+  # endtest you will want something more like this: /^\w+|\s+$/.
+  username_regex = /^\w+$/;
+  validates :username, :presence => true,
+            :format => { :with => username_regex },
+            :length => { :within => 3..50 },
+            :uniqueness => { :case_sensitive => false }
+
+  validates :firstname, :presence => true,
             :length => { :within => 3..50 }
 
+  validates :lastname, :presence => true,
+            :length => { :within => 3..50 }
+
+  email_regex = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   validates :email, :presence => true,
             :format => { :with => email_regex },
             :uniqueness => { :case_sensitive => false }
