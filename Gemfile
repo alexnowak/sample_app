@@ -9,6 +9,9 @@ gem 'rake', '0.9.2'
 
 gem 'sqlite3-ruby', :require => 'sqlite3'
 
+
+gem 'dynamic_form'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 

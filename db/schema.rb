@@ -31,8 +31,8 @@ ActiveRecord::Schema.define(:version => 20111115235853) do
     t.string   "lastname"
   end
 
-  add_index "users", ["firstname"], :username => "index_users_on_firstname"
-  add_index "users", ["lastname"], :username => "index_users_on_lastname"
-  add_index "users", ["username"], :username => "index_users_on_username"
+  add_index "users", ["firstname"], :name => "index_users_on_firstname"
+  add_index "users", ["lastname"], :name => "index_users_on_lastname"
+  add_index "users", ["username"], :name => "index_users_on_username"
 
 end

@@ -11,15 +11,15 @@ class User < ActiveRecord::Base
   # endtest you will want something more like this: /^\w+|\s+$/.
   username_regex = /^\w+$/;
   validates :username, :presence => true,
-            :format => { :with => username_regex },
+            :format => { :with => username_regex, :message => ": Only letters allowed." },
             :length => { :within => 3..50 },
             :uniqueness => { :case_sensitive => false }
 
   validates :firstname, :presence => true,
-            :length => { :within => 3..50 }
+            :length => { :within => 2..50 }
 
   validates :lastname, :presence => true,
-            :length => { :within => 3..50 }
+            :length => { :within => 2..50 }
 
   email_regex = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   validates :email, :presence => true,
