@@ -108,11 +108,11 @@ table.profile {
     margin-bottom: 0;
 }
 td.main {
-    width: 70%;
+    width: 55%;
     padding: 1em;
 }
 td.sidebar {
-    width: 30%;
+    width: 45%;
     padding: 1em;
     vertical-align: top;
     background: #ffc;

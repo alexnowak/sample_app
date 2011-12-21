@@ -9,6 +9,7 @@ gem 'rake', '0.9.2'
 
 gem 'sqlite3-ruby', :require => 'sqlite3'
 
+gem 'jquery-rails', '>= 1.0.12'
 
 gem 'dynamic_form'
 
