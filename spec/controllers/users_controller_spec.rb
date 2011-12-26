@@ -20,6 +20,10 @@ describe UsersController do
     end
   end
 
+###################################################################
+# Displaying user data
+###################################################################
+
   describe "GET show" do
 
     before(:each) do
@@ -75,12 +79,35 @@ describe UsersController do
     end
   end
 
+###################################################################
+# Creating a new user
+###################################################################
   describe "POST create" do
+
+    describe "success" do
+
+      before(:each) do
+        @attr = { :username => "newuser", :firstname => "New", :lastname => "User",
+                  :email => "user@example.com", :password => "foobar",
+                  :password_confirmation => "foobar" }
+      end
+
+      it "should create a user" do
+        lambda do
+          post :create, :user => @attr
+        end.should change(User, :count).by(1)
+      end
+      it "should redirect to the user show page" do
+        post :create, :user => @attr
+        response.should redirect_to(user_path(assigns(:user)))
+      end
+    end
 
     describe "failure" do
       before(:each) do
-        @attr = { :username => "", :email => "", :password => "",
-          :password_confirmation => "" }
+        @attr = { :username => "", :firstname => "", :lastname => "",
+                  :email => "", :password => "",
+                  :password_confirmation => "" }
       end
 
       it "should not create a user" do
@@ -132,7 +159,9 @@ describe UsersController do
       end
     end
 
-
+###################################################################
+# Updating a user
+###################################################################
   describe "PUT update" do
     describe "with valid params" do
       it "updates the requested user" do
@@ -169,6 +198,9 @@ describe UsersController do
     end
   end
 
+###################################################################
+# Deleting a user
+###################################################################
   describe "DELETE destroy" do
     it "destroys the requested user" do
       User.stub(:find).with("37") { mock_user }

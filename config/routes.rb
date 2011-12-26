@@ -1,4 +1,6 @@
 SampleApp::Application.routes.draw do
+  get "session/new"
+
   get "sessions/new"
 
   resources :microposts
