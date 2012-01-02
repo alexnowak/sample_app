@@ -101,7 +101,12 @@ describe UsersController do
         post :create, :user => @attr
         response.should redirect_to(user_path(assigns(:user)))
       end
+      it "should sign the user in" do
+        post :create, :user => @attr
+        controller.should be_signed_in
+      end
     end
+
 
     describe "failure" do
       before(:each) do

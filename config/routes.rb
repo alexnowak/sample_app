@@ -1,12 +1,10 @@
 SampleApp::Application.routes.draw do
-  get "session/new"
-
-  get "sessions/new"
 
   resources :microposts
   resources :users
   resources :sessions, :only => [:new, :create, :destroy]
 
+  get "session/new"
   get "pages/home"
   get "pages/contact"
   get "pages/about"

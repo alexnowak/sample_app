@@ -20,15 +20,18 @@ class SessionsController < ApplicationController
       render 'new'
     else
       # Sign the user in and redirect to the user's show page.
-      puts "User is authenticated successfully!"
+      puts "User #{user.username} is authenticated successfully!"
       sign_in user
+      # TODO: Flash login success ... this does not work yet....
+      #flash.now[:success] = "User #{user.username} logged in successfully."
       redirect_to user
     end
 
   end
 
   def destroy
-
+    sign_out
+    redirect_to root_path
   end
-  
+
 end
