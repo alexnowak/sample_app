@@ -77,6 +77,11 @@ class UsersController < ApplicationController
     end
   end
 
+  def edit
+    @user = User.find(params[:id])
+    @title = "Edit user"
+  end
+
   # DELETE /users/1
   # DELETE /users/1.xml
   def destroy
